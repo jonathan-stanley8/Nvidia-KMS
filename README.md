@@ -76,14 +76,6 @@ Nvidia KMS/
 
 ---
 
-## Screenshots
-
-> *Knowledge base article listing view*
-
-![KMS Screenshot](screenshot.png)
-
----
-
 ## Future Improvements
 
 - Add ability to create, edit, and delete articles directly from the web UI
@@ -97,4 +89,4 @@ Nvidia KMS/
 
 **Jonathan Stanley**  
 B.S. IT Data Networking & Security — Liberty University  
-[LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN) | [GitHub](https://github.com/YOUR_USERNAME)
+[LinkedIn](www.linkedin.com/in/jonathan-stanley8) | [GitHub](https://github.com/jonathan-stanley8)
