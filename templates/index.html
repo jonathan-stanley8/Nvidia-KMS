@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NVIDIA KMS</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; background: #f5f5f5; }
+        h1 { color: #76b900; }
+        .entry { background: white; padding: 15px 20px; margin-bottom: 15px; border-radius: 6px; border-left: 4px solid #76b900; }
+        .entry h3 { margin: 0 0 8px 0; }
+        .entry p { margin: 0 0 6px 0; color: #444; }
+        .entry small { color: #999; }
+    </style>
+</head>
+<body>
+    <h1>NVIDIA Knowledge Management System</h1>
+    <p>Internal knowledge base for NVIDIA employees.</p>
+    <hr>
+    {% for entry in entries %}
+    <div class="entry">
+        <h3>{{ entry[1] }}</h3>
+        <p>{{ entry[2] }}</p>
+        <small>Submitted: {{ entry[3] }}</small>
+    </div>
+    {% endfor %}
+</body>
+</html>
