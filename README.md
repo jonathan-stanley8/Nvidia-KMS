@@ -8,6 +8,7 @@ A full-stack web application built as a capstone project that allows NVIDIA empl
 
 - View a list of internal knowledge articles in a clean, organized interface
 - Each entry displays a title, content, and submission date
+- Submit new knowledge entries directly from the web interface
 - Backend database for persistent storage and easy management
 - Lightweight and fast — runs locally with minimal setup
 
@@ -78,7 +79,7 @@ Nvidia KMS/
 
 ## Future Improvements
 
-- Add ability to create, edit, and delete articles directly from the web UI
+- Add ability to edit and delete articles directly from the web UI
 - Implement user authentication so only authorized employees can submit entries
 - Add search and filtering functionality to quickly find articles by keyword
 - Deploy to a cloud platform for remote access
