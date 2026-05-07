@@ -51,7 +51,7 @@ Nvidia KMS/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Nvidia-KMS.git
+   git clone https://github.com/jonathan-stanley8/Nvidia-KMS.git
    cd Nvidia-KMS
    ```
 
