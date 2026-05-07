@@ -81,7 +81,7 @@ Nvidia KMS/
 - Add ability to create, edit, and delete articles directly from the web UI
 - Implement user authentication so only authorized employees can submit entries
 - Add search and filtering functionality to quickly find articles by keyword
-- Deploy to a cloud platform (AWS, Heroku) for remote access
+- Deploy to a cloud platform for remote access
 
 ---
 
