@@ -43,38 +43,104 @@ Nvidia KMS/
 
 ## Getting Started
 
-### Prerequisites
-- Python 3.x installed
-- pip (Python package manager)
+### Step 1 — Install Required Software
 
-### Installation
+Before running the app, make sure the following are installed on your machine:
 
-1. **Clone the repository**
+#### Python
+Python is the programming language the app runs on.
+
+1. Go to https://www.python.org/downloads/
+2. Download and run the installer for your operating system
+3. **Important:** During installation, check the box that says **"Add Python to PATH"**
+4. Verify the installation by opening a terminal and running:
    ```bash
-   git clone https://github.com/jonathan-stanley8/Nvidia-KMS.git
-   cd Nvidia-KMS
+   python --version
    ```
 
-2. **Install dependencies**
+#### Git
+Git is used to download the project from GitHub.
+
+1. Go to https://git-scm.com/downloads
+2. Download and run the installer for your operating system
+3. During installation, make sure **"Add Git to PATH"** is selected (this is the default)
+4. Verify the installation by opening a terminal and running:
    ```bash
-   pip install -r requirements.txt
+   git --version
    ```
 
-3. **Initialize the database** (first time only)
-   ```bash
-   python setup_db.py
-   ```
+> **Don't want to install Git?** You can skip it entirely by downloading the project directly from GitHub instead — click the green **Code** button on the repository page and select **Download ZIP**. Extract the ZIP and skip to Step 3.
 
-4. **Run the application**
-   ```bash
-   python app.py
-   ```
+---
 
-5. **Open in your browser**
-   ```
-   http://127.0.0.1:5000
-   ```
+### Step 2 — Download the Project
 
+Open a terminal and run:
+
+```bash
+git clone https://github.com/jonathan-stanley8/Nvidia-KMS.git
+cd Nvidia-KMS
+```
+
+---
+
+### Step 3 — Install Flask
+
+Flask is the web framework the app is built on. Install it by running:
+
+```bash
+pip install flask
+```
+
+Or if that doesn't work, try:
+
+```bash
+pip3 install flask
+```
+
+Verify Flask installed successfully:
+
+```bash
+python -m flask --version
+```
+
+---
+
+### Step 4 — Install Remaining Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### Step 5 — Initialize the Database
+*(First time only)*
+
+```bash
+python setup_db.py
+```
+
+---
+
+### Step 6 — Run the Application
+
+```bash
+python app.py
+```
+
+You should see a message like:
+```
+Running on http://127.0.0.1:5000
+```
+
+---
+
+### Step 7 — Open in Your Browser
+
+```
+http://127.0.0.1:5000
+```
 ---
 
 ## Future Improvements
